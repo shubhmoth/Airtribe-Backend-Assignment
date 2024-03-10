@@ -1,53 +1,59 @@
 # Airtribe Backend API
 
-This backend API powers the course management system for Airtribe, an online learning platform. It facilitates instructors in creating courses, allows learners to sign up for them, and enables instructors to engage with learners through comments.
+Our robust backend API serves as the backbone of Airtribe's comprehensive course management system, facilitating seamless interaction between instructors and learners in our dynamic online learning platform.
 
-## Database Design
+## Database Architecture
 
-Instructors have profiles.
-Instructors can create and manage multiple courses.
-Learners can register for courses.
-Instructors can comment on learner registrations.
+**Instructor Profiles:** Every instructor possesses a personalized profile within the system.
+**Course Management:** Instructors have the capability to create and manage multiple courses effortlessly.
+**Learner Registration:** Learners can easily register for courses they are interested in.
+**Instructor Feedback:** Instructors can provide valuable feedback by commenting on learner registrations.
 
-## APIs
+## API Functionalities
 
-Create Course: Instructors can create new courses.
-Update Course Details: Instructors can modify course information.
-Course Registration: Learners can sign up for courses.
-Lead Update: Instructors can change learner status.
-Lead Search: Instructors can find learners by name or email.
-Add Comment: Instructors can comment on learner registrations.
+- **Create Course:** Empowers instructors to effortlessly create new courses.
+- **Update Course Details:** Instructors can conveniently modify course information as needed.
+- **Course Registration:** Streamlined process for learners to register for courses.
+- **Lead Update:** Instructors have the flexibility to update learner status as required.
+- **Lead Search:** Easy lookup functionality for instructors to find learners by name or email.
+- **Add Comment:** Instructors can provide feedback by adding comments to learner registrations.
 
-## Technologies Used
+## Utilized Technologies
 
-Node.js
-Express.js
-MySQL
+Our solution harnesses the power of cutting-edge technologies to ensure efficiency and reliability:
+
+- **Node.js:** Enables server-side JavaScript execution for scalable and high-performance backend operations.
+- **Express.js:** Provides a robust framework for building RESTful APIs with minimal overhead.
+- **MySQL:** Utilized as the database management system to store and manage data efficiently.
 
 ## Usage
 
 To set up and run the project locally, follow these steps:
 
-Clone the repository:
-    bash
-    git clone https://github.com/shubhmoth/Airtribe-Backend-Assignment.git
-    
+1. Clone the repository:
 
-Navigate to the project directory:
-    bash
-    cd Airtribe-Backend-Assignment
-    
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    ```
 
-Install dependencies:
-    bash
+2. Navigate to the project directory:
+
+    ```bash
+    cd your-repo-name
+    ```
+
+3. Install dependencies:
+
+    ```bash
     npm install
-    
+    ```
 
-Set up the MySQL database and execute the provided SQL script.
+4. Set up the MySQL database and execute the provided SQL script.
 
-Update database settings in the project files.
+5. Update database settings in the project files.
 
-Start the server:
-    bash
+6. Start the server:
+
+    ```bash
     npm start
-    
+    ```
